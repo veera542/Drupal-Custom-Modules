@@ -1,0 +1,5 @@
+name: starwars Paragraph Content
+type: module
+description: Starwars Paragraph Content
+package: custom
+core_version_requirement: ^10 || ^11

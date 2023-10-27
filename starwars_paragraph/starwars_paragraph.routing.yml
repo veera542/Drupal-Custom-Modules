@@ -1,0 +1,7 @@
+starwars_paragraph.paragraphpage:
+  path: '/paragraphtypes'
+  defaults:
+    _controller: '\Drupal\starwars_paragraph\Controller\ParagraphController::createParagraph'
+    _title: 'Create Paragraph Type'
+  requirements:
+    _permission: 'access content'

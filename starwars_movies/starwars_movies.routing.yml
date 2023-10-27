@@ -1,0 +1,7 @@
+starwars_movies.filmspage:
+  path: '/films'
+  defaults:
+    _controller: '\Drupal\starwars_movies\Controller\FilmsList::list'
+    _title: 'Films'
+  requirements:
+    _permission: 'access content'

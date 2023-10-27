@@ -1,0 +1,5 @@
+name: starwars movies
+type: module
+description: The star wars API
+package: movies list
+core_version_requirement: ^9 || ^10

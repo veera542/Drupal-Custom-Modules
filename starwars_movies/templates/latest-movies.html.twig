@@ -1,0 +1,13 @@
+<div class="row gx-5">
+  <h1>Latest Movies</h1>
+  {% for film in films %}
+    <div class="col-lg-4 mb-5 mb-lg-0">
+      <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-film"></i></div>
+      <h2 class="h4 fw-bolder">{{ film['title'] }}</h2>
+      <p>Episode Id: {{ film['episode_id'] }}</p>
+      <p>Director: {{ film['director'] }}</p>
+      <p>Producer: {{ film['producer'] }}</p>
+      <p>Release Date: {{ film['release_date'] | date('F j, Y') }}</p>
+    </div>
+  {% endfor %}
+</div>

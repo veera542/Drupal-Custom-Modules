@@ -1,0 +1,13 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function starwars_movies_theme($existing, $tyoe, $theme, $path) {
+  return[
+    'latest_movies' => [
+      'variables' => ['films' => Null],
+    ],
+  ];
+
+}
